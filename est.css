@@ -1,5 +1,3 @@
-/* Reset básico para evitar inconsistências entre navegadores */
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
@@ -8,7 +6,6 @@
     box-sizing: border-box;
 }
 
-/* Estilos globais */
 body {
     font-family: 'Raleway', sans-serif;
     line-height: 1.6;
