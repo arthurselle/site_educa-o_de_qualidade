@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+    line-height: 1.6;
+    color: #dabb88;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #fdf6ec;
+    color: #dabb88;
+    font-size: 40px;
+    padding: 20px;
+    height: 150px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+main {
+    flex: 1;
+    padding: 40px;
+}
+
+footer {
+    background: #fdf6ec;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #dabb88;
+    font-size: 18px;
+}
+
+footer a:hover {
+    color: #b8926d;
+}
+
+h2 a {
+    text-decoration: none;
+    font-style: italic;
+    color: inherit;
+}
+
+h2 a:hover {
+    text-decoration: none;
+    color: #b8926d; 
+}
+
+.lista-nav {
+    background-color: #fdf6ec;
+    padding: 0px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    text-align: center; 
+}
+
+.lista-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.lista-nav ul li {
+    display: inline;
+}
+
+.lista-nav ul li a {
+    text-decoration: none;
+    color: #dabb88; 
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.lista-nav ul li a:hover {
+    text-decoration: underline;
+    color: #b8926d; 
+}
+
+
+.container {
+    display: flex; 
+    align-items: flex-start; 
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.bloco-texto {
+    padding: 20px;
+    color: rgb(104, 104, 104);
+    text-align: justify;
+    width: 60%; 
+    padding-right: 20px;
+}
+
+.bloco-texto-full {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(104, 104, 104);
+    width: 100%;
+}
+
+.bloco-texto-full p {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.bloco-imagem {
+    margin-left: 25px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    display: flex; 
+}
+
+.bloco-imagem img,
+img {
+    max-width: 80%; 
+    height: auto; 
+    border-radius: 3px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.bloco-imagem img:hover{
+    transform: scale(1.01);
+}
+
+.lista-desafio {
+    padding: 10px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+.lista-desafio ul {
+    list-style: disc;
+    padding: 0;
+    display: block;
+    justify-content: center;
+    gap: 15px; 
+}
+
+.lista-desafio ul li {
+    color: rgb(104, 104, 104);
+    font-size: 15px; 
+    margin-bottom: 15px; 
+    width: 60%;
+}
